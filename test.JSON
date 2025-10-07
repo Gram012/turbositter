@@ -1,0 +1,22 @@
+{
+        "Value":        {
+                "averageperiod":        0,
+                "cloudcover":   0,
+                "dewpoint":     8.27,
+                "humidity":     63.44,
+                "pressure":     700.36,
+                "rainrate":     0,
+                "skybrightness":        333.33,
+                "skyquality":   0,
+                "skytemperature":       -12.35,
+                "starfwhm":     0,
+                "temperature":  15.16,
+                "winddirection":        0,
+                "windgust":     0,
+                "windspeed":    0.7
+        },
+        "ClientTransactionID":  0,
+        "ServerTransactionID":  217222,
+        "ErrorNumber":  0,
+        "ErrorMessage": ""
+}
