@@ -1,0 +1,15 @@
+# To install:
+#   sudo cp turbositter.service /etc/systemd/system; sudo systemctl daemon-reload; sudo systemctl restart turbositter
+[Unit]
+Description=TurboSitter: Monitor the prototype for danger
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+User=turbo
+ExecStart=/opt/anaconda3/envs/remote_control/bin/python3 /turbo_telescope/remote_control/remote_control/turbositter/turbositter.py
+Restart=on-failure
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target

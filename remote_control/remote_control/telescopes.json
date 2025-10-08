@@ -1,0 +1,18 @@
+{
+  "observatories": [
+    {
+      "name": "St Paul Observatory",
+      "latitude": "44.990307",
+      "longitude": "-93.179719",
+      "height": "242",
+      "timezone": "US/Central",
+      "telescopes": [
+        {
+          "name": "turbo",
+          "ip": "10.129.9.28",
+          "port": "5000"
+        }
+      ]
+    }
+  ]
+}

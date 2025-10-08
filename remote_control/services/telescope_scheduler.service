@@ -1,0 +1,15 @@
+# To install:
+#   sudo cp telescope_scheduler.service /etc/systemd/system; sudo systemctl daemon-reload; sudo systemctl restart telescope_scheduler
+[Unit]
+Description=The TURBO telescope scheduler
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+User=turbo
+ExecStart=/opt/anaconda3/envs/remote_control/bin/python3 /turbo_telescope/remote_control/remote_control/scheduler/scheduling/run_scheduler.py
+Restart=on-failure
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target
