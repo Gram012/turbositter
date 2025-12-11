@@ -1,0 +1,15 @@
+{
+  "central_enclosure": {
+    "cameras": [
+      {
+        "zwo_id": 0,
+        "friendly_name": "Scope Camera 1"
+      },
+      {
+        "zwo_id": 1,
+        "friendly_name": "Scope Camera 2"
+      }
+    ]
+  }
+}
+
